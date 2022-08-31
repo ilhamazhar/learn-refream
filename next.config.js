@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 
 dotenv.config({ path: ".env" });
 
-const basePath = (process.env.NODE_ENV === "development" ? "" : "/cv-ku");
+const basePath = (process.env.NODE_ENV === "development" ? "" : "/Refream");
 
 const nextConfig = {
   reactStrictMode: true,

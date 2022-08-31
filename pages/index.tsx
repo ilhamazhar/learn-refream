@@ -75,10 +75,9 @@ const Hobby: FC = () => {
       </div>
 
       <div className="flex">
-        <HobbyIcon caption="Membaca" src="child-reading.svg" />
-        <HobbyIcon caption="Berhitung" src="icon-berhitung.svg" />
-        <HobbyIcon caption="Koding" src="icon-ngoding.svg" />
-        <HobbyIcon caption="Menulis" src="icon-checklist.svg" />
+        <HobbyIcon caption="Reading" src="child-reading.svg" />
+        <HobbyIcon caption="Calculating" src="icon-berhitung.svg" />
+        <HobbyIcon caption="Coding" src="icon-ngoding.svg" />
       </div>
     </div>
   );

@@ -2,13 +2,15 @@ name: Auto Deploy
 
 on:
   push:
-      branches: [master]
+      branches: [main]
 
 jobs:
     build-and-deploy:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@master
+          with:
+            uses: main
         - uses: actions/setup-node@v2
           with:
             node-version: '14'
